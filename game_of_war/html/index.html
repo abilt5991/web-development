@@ -1,0 +1,27 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../css/index.css">
+    </head>
+    <body>
+        <div class="top--sec">
+            <button id="new-deck" onclick="getNewDeck()">NEW DECK</button><br/>
+            <p id="remaining_cards"></p>
+        </div>
+        
+        
+        <div class="main--container">
+            <h2 id="winner--text"> Game of War </h2>
+            <h3>Computer: <span id="computer_score">0</span></h3>
+            <div id="cards" class="cards">
+                <div class="card-slot"></div>
+                <div class="card-slot"></div>
+            </div>
+            <h3>Me: <span id="my_score">0</span></h3>
+        </div>
+        <button id="draw-card" onclick="twoNewCards()">DRAW</button>
+        <script src="../js/index.js"></script>
+    </body>
+</html>
